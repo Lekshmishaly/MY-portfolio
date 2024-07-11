@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lekshmi Shaly</title>
+    <link rel="icon" type="image/x-icon" href="image/Logo.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f4e18d8ef3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+
+      <div class="container">
+        <nav>
+           <span id="name">LEKSHMI SHALY</span>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skill">Skill</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">PortFolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Web Developer</p>
+          <h1>Hi, I'm <br><span>Lekshmi Shaly</span><br> From Kerala</h1>
+        </div>
+
+      </div>  
+        
+    </div>
+
+    <!-- ------------------------------About Me--------------------------------------- -->
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="image/about.jpg" alt="about">
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>Meet Lekshmi Shaly,
+               a passionate Web Developer from the picturesque region of Kerala, India.
+                With expertise in HTML, CSS, and JavaScript,
+                utilizing technologies like jQuery to optimize user experiences.
+                A staunch advocate for teamwork, I foster collaboration to achieve outstanding results,
+                 supported by strong communication skills that facilitate effective idea exchange.
+                  When challenges arise, my problem-solving prowess shines,
+                   complemented by a creative approach that fuels innovation.
+                    Driven by a relentless pursuit of excellence, whether coding elegant solutions or collaborating with peers,
+                     I'm eager to connect and embark on an exciting journey of innovation together.
+
+            </p>
+
+                <div class="tab-title">
+                  <div class="tab-link active-link" onclick="opentab('Skills')">Skills</div>
+                  <div class="tab-link" onclick="opentab('Education')"">Education</div>
+                </div>
+                <div class="tab-content active-tab" id="Skills">
+                  <ul>
+                    <li><span>Mern Stack <pre>       & </pre> Mean Stack</span><br>Web Developer</li>
+                    <li><span>Web Development</span><br>Web App Developer</li>
+                    <!-- <li><span>App Developer</span><br>App Developer</li> -->
+                  </ul>
+                </div>
+                <div class="tab-content" id="Education">
+                  <ul>
+                    <li><span>2024</span><br>BCA from Srinivas University</li>
+                    <li><span>2021</span><br>PLUS TWO</li>
+                    <li><span>2019</span><br>SSLC</li>
+                  </ul>
+                </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ---------------------------Skill--------------------------------- -->
+    <div id="skill">
+    <div class="container1">
+      <h1 class="sub-title">My Skills</h1>
+      <div class="col">
+        <h3 class="titulo">Programs</h3>
+        <ul class="skill">
+          <li><span class="blueline html"></span><em>HTML</em></li>
+          <li><span class="blueline css"></span><em>CSS</em></li>
+          <li><span class="blueline javascript"></span><em>Javascript</em></li> 
+          <li><span class="blueline jquery"></span><em>jQuery</em></li>
+        </ul>
+      </div>
+        <!-- <div class="col">
+        <h3 class="plataformas titulo">Plataformas</h3>
+        <ul class="skill">
+          <li><span class="greenline wordpress"></span><em>Wordpress</em></li>
+          <li><span class="greenline prestashop"></span><em>Prestashop</em></li>
+          <li><span class="greenline joomla"></span><em>Joomla</em></li>
+          <li><span class="greenline blogger"></span><em>Blogger</em></li>
+          <li><span class="greenline tridion"></span><em>Tridion</em></li>
+        </ul>
+      </div> -->
+        <div class="col">
+        <h3 class="programas titulo">Skills</h3>
+        <ul class="skill">
+          <li><span class="redline dreamweaver"></span><em>TeamWork</em></li>
+          <li><span class="redline illustrator"></span><em>Communication</em></li>
+          <li><span class="redline photoshop"></span><em>Problem Solving</em></li>
+          <li><span class="redline flash"></span><em>Creativity</em></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+   <!-- Service-->
+
+   <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="service-list">
+           <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+           <p>Elevate your online presence with our cutting-edge web design solutions.
+             From sleek layouts to intuitive user experiences,
+             we craft visually stunning websites tailored to your brand's unique identity and goals.</p>
+             <a href="#">Learn more</a>
+             </div>
+             <div>
+              <!-- <i class="fa-brands fa-app-store"></i> -->
+              <i class="fa-solid fa-city"></i>
+              <h2>Building Sites</h2>
+             <p>Transform your ideas into stunning digital experiences with our app design expertise.
+               From concept to execution,
+               we specialize in crafting intuitive interfaces that engage users and elevate your brand's presence.</p>
+               <a href="#">Learn more</a>
+               </div>
+               <div>
+                <!-- <i class="fa-brands fa-golang"></i> -->
+                <i class="fa-solid fa-check" style="color: #fcfcfc;"></i>
+                <h2>Mern Stack</h2>
+               <p>Unlock the power of Mern Stack with our expert developers.
+                 From robust frontend systems to high-performance applications,
+                 we deliver efficient solutions tailored to your needs, ensuring scalability and reliability.</p>
+                 <a href="#">Learn more</a>
+                 </div>
+      </div>
+    </div>
+   </div>
+
+   <!-- ------------------------------Portfolio----------------------------------------------------- -->
+   <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="image/netflix.jpg" alt="">
+            <div class="layer">
+              <h2>NETFLIX</h2>
+
+              <p>Introducing innovative Netflix Responsive clone WebPage, a Work blend of creativity and technology. 
+              </p>
+              
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="image/Apple.avif" alt="">
+            <div class="layer">
+              <h2>APPLE ONLINE STORE</h2>
+              <p>Introducing innovative Apple Static clone WebPage, a Work blend of creativity and technology. 
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="image/parker.jpg" alt="">
+            <div class="layer">
+              <h2>PARKERs PEN</h2>
+              <p>Introducing innovative Parker's Pen Static clone WebPage, a Work blend of creativity and technology. 
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+      </div>
+   </div>
+
+<!-- Contact -->
+
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p> <i class="fa-solid fa-paper-plane"></i>   lekshmishaly683@gmail.com</p>
+        <p> <i class="fa-solid fa-square-phone"></i> 9037695239</p>
+        <div class="social-icons">
+          <a href="https:"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https:"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https:"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="https:"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <a href="image/Lekshmi Shaly Resume.pdf" download  class="btn btn2">Download CV</a>
+      </div>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <div>
+          <input type="text" name="Name" placeholder="Your Name" required id="contact-name" onkeyup="validateName()">
+          <span id="name-error">name is required</span>
+        </div>
+        <div>
+          <input type="email" name="Email" placeholder="Your Email" required id="contact-email" onkeyup="validateEmail()">
+          <span id="email-error">email is required</span>
+        </div>
+          <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+          <!-- <span id="message-error">message is required</span> -->
+          <button type="submit" class="btn btn2">Submit</button>
+          <!-- <span id="submit-error">please fix error</span> -->
+        </form>
+        <span id="msg"></span>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>copyright © Lekshmi Shaly<i class="fa-solid fa-heart"></i></p>
+  </div>
+  </div>
+
+
+
+
+    <script src="script.js"></script>
+
+   
+</body>
+</html>
